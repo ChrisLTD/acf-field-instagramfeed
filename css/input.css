@@ -1,0 +1,112 @@
+.field_type-instagramfeed .hide {
+  display: none;
+}
+.field_type-instagramfeed .hide.show {
+
+}
+
+.field_type-instagramfeed .input-group {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.field_type-instagramfeed .input-group-addon {
+  padding: 0 5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #333;
+  text-align: center;
+  background-color: #EEE;
+  border: 1px solid #DDD;
+  border-radius: 1px;
+  border-right:0 none;
+  margin-right: 0;
+}
+.field_type-instagramfeed .input-group-addon + input{
+  border-left: 0 none;
+  padding: 5px;
+  margin-left: 0;
+}
+.field_type-instagramfeed .input-group-addon,
+.field_type-instagramfeed .input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.field_type-instagramfeed .input-group-addon,
+.field_type-instagramfeed .input-group-btn,
+.field_type-instagramfeed .input-group input {
+  display: table-cell
+}
+
+
+
+.field_type-instagramfeed .acf-gallery .thumbnail {
+  cursor: default;
+}
+.field_type-instagramfeed .acf-gallery .thumbnail .inner{
+  display: block;
+  cursor: default;
+}
+.field_type-instagramfeed .acf-gallery .info{
+  position: absolute;
+  left:5px;
+  bottom: 5px;
+  right:5px;
+  opacity: 0;
+  background-color: #fff;
+}
+.field_type-instagramfeed .acf-gallery .thumbnail:hover .info{
+  opacity: 0.75;
+}
+.field_type-instagramfeed .acf-gallery .thumbnail p{
+  word-wrap: normal;
+  margin: 0 auto 5px auto;
+
+  color: #999;
+  font-size: 12px;
+  line-height: 15px;
+
+}
+
+.field_type-instagramfeed pre {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: #fff;
+  border-radius: 0;
+}
+.field_type-instagramfeed label,
+.field_type-instagramfeed .sub-field-instructions {
+  float:left;
+  clear:both;
+  width:auto;
+  display: inline-block;
+
+}
+
+.field_type-instagramfeed .field ul.acf-fc-layout-controlls {
+  float:right;
+  text-align: right;
+  position: relative;
+  right:auto;
+  top:auto;
+}
+.field_type-instagramfeed .field ul.acf-fc-layout-controlls li {
+  margin: 0 0 0 5px;
+}
+.field_type-instagramfeed .acf-button-add,
+.field_type-instagramfeed .acf-button-remove {
+/*  background: #FFF;
+  color: #AAA;
+  line-height: 1;
+  font-size: 16px;
+  padding-bottom: 2px;
+  height: auto;
+  text-align: center;*/
+}
